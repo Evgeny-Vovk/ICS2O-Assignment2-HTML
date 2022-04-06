@@ -2,6 +2,6 @@ p {
   font-size: 150%;
 }
 
-margin-left {
-  
+.margin-left {
+  margin-left: 1em;
 }

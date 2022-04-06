@@ -15,5 +15,5 @@ function calculate() {
   const area = lengthA * lengthB * Math.PI
 
   // output
-  document.getElementById('area').innerHTML = '<p>Area is: ' + area.toFixed(2) + ' cm².</p>'
+  document.getElementById('area').innerHTML = '<p>The area is: ' + area.toFixed(2) + ' cm².</p>'
 }
