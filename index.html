@@ -28,12 +28,11 @@
         <table>
           <tr>
             <th>
-              <img src="./img/rectangle.png" alt="rectangle" width="75%" height="auto" />
+              <img src="./img/ellipse.png" alt="ellipse"/>
             </th>
             <th>
-              <h2>Formulas</h2>
-              <h3>A = L x W</h3>
-              <h3>P = 2 x (L + W)</h3>
+              <h2>The formula for area is:</h2>
+              <h3>A = π x a x b</h3>
             </th>
           </tr>
         </table>
@@ -50,13 +49,8 @@
         <form action="#">
           <p>Width</p>
           <div class="mdl-textfield mdl-js-textfield">
-            <input
-              class="mdl-textfield__input"
-              type="text"
-              pattern="-?[0-9]*(\.[0-9]+)?"
-              id="width-of-rectangle"
-            />
-            <label class="mdl-textfield__label" for="width-of-rectangle">width ...</label>
+            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="width-of-rectangle"/>
+            <label class="mdl-textfield__label">width ...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
@@ -64,15 +58,12 @@
         <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="calculate()">
           Calculate
         </button>
-        <br/>
-        <p>
-          <div id="answers">
-            <div id="area"></div>
-            <div id="perimeter"></div>
-          </div>
-        </p>
+        </br>
+        <div id="answers">
+          <div id="area"></div>
+          <div id="perimeter"></div>
+        </div>
       </main>
     </div>
   </body>
-</html>
 </html>
