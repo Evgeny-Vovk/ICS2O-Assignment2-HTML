@@ -6,14 +6,14 @@
 /**
  * This function calculates area and perimeter of rectangle.
  */
-function calculate () {
+function calculate() {
   // input
   const lengthA = parseInt(document.getElementById('length-a').value)
   const lengthB = parseInt(document.getElementById('length-b').value)
 
   // process
-  const area = lengthA * lengthB * math.PI
+  const area = lengthA * lengthB * Math.PI
 
   // output
-  document.getElementById('area').innerHTML = '<p>Area is: ' + area + ' cm².</p>'
+  document.getElementById('area').innerHTML = '<p>Area is: ' + area.toFixed(2) + ' cm².</p>'
 }
